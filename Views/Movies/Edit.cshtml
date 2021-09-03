@@ -1,0 +1,56 @@
+﻿@model Alkemy.Models.Movies
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Movies</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Imagen" class="control-label"></label>
+                <input asp-for="Imagen" class="form-control" />
+                <span asp-validation-for="Imagen" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Titulo" class="control-label"></label>
+                <input asp-for="Titulo" class="form-control" />
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fecha_Creacion" class="control-label"></label>
+                <input asp-for="Fecha_Creacion" class="form-control" />
+                <span asp-validation-for="Fecha_Creacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Calificacion" class="control-label"></label>
+                <input asp-for="Calificacion" class="form-control" />
+                <span asp-validation-for="Calificacion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PersAsocId" class="control-label"></label>
+                <select asp-for="PersAsocId" class="form-control" asp-items="ViewBag.PersAsocId"></select>
+                <span asp-validation-for="PersAsocId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GeneroAsocId" class="control-label"></label>
+                <select asp-for="GeneroAsocId" class="form-control" asp-items="ViewBag.GeneroAsocId"></select>
+                <span asp-validation-for="GeneroAsocId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

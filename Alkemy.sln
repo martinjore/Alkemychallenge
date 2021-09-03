@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alkemy", "Alkemy.csproj", "{4E97C1CA-5473-4028-B4A6-007163303B8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E97C1CA-5473-4028-B4A6-007163303B8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E97C1CA-5473-4028-B4A6-007163303B8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E97C1CA-5473-4028-B4A6-007163303B8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E97C1CA-5473-4028-B4A6-007163303B8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B30B48AC-283C-4573-A8D9-4CEA40FCABAF}
+	EndGlobalSection
+EndGlobal
